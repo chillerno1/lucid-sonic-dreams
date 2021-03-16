@@ -29,8 +29,8 @@ if not os.path.exists('stylegan2'):
 #StyleGAN2 Imports
 cwd = os.getcwd()
 os.chdir('stylegan2')
-import dnnlib
-from dnnlib.tflib.tfutil import * 
+from stylegan2 import dnnlib
+from stylegan2.dnnlib.tflib.tfutil import * 
 os.chdir(cwd)
 
 
